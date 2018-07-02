@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">عيد زواج سعيد</string>
+    <string name="action_settings">الاعدادات</string>
+    <string name="from">مع كل الحب... <xliff:g id="name" example="Anas">%s</xliff:g></string>
+    <string name="happy_anniversary">عيد زواج سعيد <xliff:g id="name" example="Renad">%s</xliff:g></string>
+
+    <string name="spous_name">اسم الزوج او الزوجة</string>
+    <string name="your_name">اسم المرسل</string>
+    <string name="create_card">عمل البطاقة</string>
+
+</resources>

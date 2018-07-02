@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anas.android.creatcard.CardActivity">
+
+    <ImageView
+        android:src="@drawable/happy_anniversary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/text_view_to"
+        tools:text="@string/happy_anniversary"
+        android:layout_margin="18dp"
+        android:textColor="#eeeeeeee"
+        android:fontFamily="sans-serif=light"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+    <TextView
+        android:id="@+id/text_view_from"
+        tools:text="@string/from"
+        android:layout_margin="18dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif=light"
+        android:textSize="36sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>
