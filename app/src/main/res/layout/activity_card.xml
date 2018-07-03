@@ -13,9 +13,9 @@
 
     <TextView
         android:id="@+id/text_view_to"
-        tools:text="@string/happy_anniversary"
+        tools:text="@string/happy_anniversary_tools"
         android:layout_margin="18dp"
-        android:textColor="#eeeeeeee"
+        android:textColor="@color/color_secondary"
         android:fontFamily="sans-serif=light"
         android:textSize="36sp"
         android:layout_width="wrap_content"
@@ -24,9 +24,9 @@
         />
     <TextView
         android:id="@+id/text_view_from"
-        tools:text="@string/from"
+        tools:text="@string/from_tools"
         android:layout_margin="18dp"
-        android:textColor="@android:color/white"
+        android:textColor="@color/color_secondary"
         android:fontFamily="sans-serif=light"
         android:textSize="36sp"
         android:layout_width="wrap_content"
