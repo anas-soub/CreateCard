@@ -14,7 +14,7 @@
     <TextView
         android:id="@+id/text_view_to"
         tools:text="@string/happy_anniversary_tools"
-        android:layout_margin="18dp"
+        android:layout_margin="20dp"
         android:textColor="@color/color_secondary"
         android:fontFamily="sans-serif=light"
         android:textSize="36sp"
@@ -25,7 +25,7 @@
     <TextView
         android:id="@+id/text_view_from"
         tools:text="@string/from_tools"
-        android:layout_margin="18dp"
+        android:layout_margin="20dp"
         android:textColor="@color/color_secondary"
         android:fontFamily="sans-serif=light"
         android:textSize="36sp"

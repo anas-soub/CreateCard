@@ -7,8 +7,9 @@
     <string name="from_tools">مع كل الحب... أنس</string>
     <string name="happy_anniversary_tools">عيد زواج سعيد رناد</string>
 
-    <string name="spous_name">اسم الزوج او الزوجة</string>
+    <string name="spouse_name">اسم الزوج او الزوجة</string>
     <string name="your_name">اسم المرسل</string>
     <string name="create_card">عمل البطاقة</string>
+    <string name="explain_usage">ادخل اسمك و اسم الزوج او الزوجة ثم اضغط زر "عمل بطاقة" لرؤية البطاقة </string>
 
 </resources>

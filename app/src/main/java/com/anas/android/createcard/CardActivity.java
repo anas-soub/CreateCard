@@ -26,7 +26,7 @@ public class CardActivity extends AppCompatActivity {
         //Get the current local language of the system
         String lang = Locale.getDefault().getLanguage();
         Typeface typeface;//used to assign fontType to the TextViews
-        //The font is selected from the assets based on the detected language
+//        The font is selected from the assets based on the detected language
         if (lang.equals("ar")){ //if arabic
             typeface = Typeface.createFromAsset(getAssets(),"diwani_bent.ttf");
         }

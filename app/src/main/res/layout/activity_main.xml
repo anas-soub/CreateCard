@@ -4,11 +4,64 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
 
+    android:layout_margin="4dp"
+    >
+
+
+<TextView
+    android:id="@+id/text_view_explain_usage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/explain_usage"
+    android:textSize="20sp"
+    android:background="@color/color_primary_dark"
+    android:padding="24dp"
+    android:layout_margin="8dp"
+    android:textColor="@android:color/white"
+
+
+     />
+
+    <TextView
+        android:id="@+id/text_view_hide_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_view_explain_usage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:text="X"
+        android:padding="16dp"
+        android:textColor="@android:color/white"
+        />
+    <TextView
+        android:id="@+id/text_view_show_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/text_view_explain_usage"
+        android:layout_alignEnd="@+id/text_view_explain_usage"
+        android:text="\?... "
+        android:textSize="24dp"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:background="@color/color_primary_dark"
+        android:layout_margin="8dp"
+
+        />
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="48dp"
+        >
     <EditText
         android:id="@+id/edit_text_from"
         android:hint="@string/your_name"
-        android:layout_margin="18dp"
         android:fontFamily="sans-serif=light"
         android:textSize="18sp"
         android:layout_width="match_parent"
@@ -16,8 +69,7 @@
         />
     <EditText
         android:id="@+id/edit_text_to"
-        android:hint="@string/spous_name"
-        android:layout_margin="18dp"
+        android:hint="@string/spouse_name"
         android:fontFamily="sans-serif=light"
         android:textSize="18sp"
         android:layout_width="match_parent"
@@ -26,14 +78,16 @@
 
     <Button
         android:id="@+id/button_create_card"
-        android:padding="16dp"
+        android:layout_margin="48dp"
+        android:padding="24dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/create_card"
         android:textColor="@android:color/white"
         android:background="@color/color_primary"
-        android:textStyle="bold"
+
         />
+    </LinearLayout>
 
 </LinearLayout>
